@@ -7,8 +7,15 @@ nav.main-nav {
   justify-content: space-between;
 
   a {
+    transition: 300ms;
     color: white;
     text-decoration: none;
+    &:hover {
+      color: gray;
+    }
+    &.active {
+      color: gray;
+    }
   }
   img {
     margin-top: 0.2rem;

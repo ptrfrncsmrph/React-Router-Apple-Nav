@@ -1,3 +1,14 @@
+@keyframes slidein {
+  from {
+    transform: translateX(5rem);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
 nav.sub-nav {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(4rem, 1fr));
@@ -6,10 +17,14 @@ nav.sub-nav {
   align-items: baseline;
   grid-gap: 0.75rem;
   margin: 1rem auto;
-
+  animation: slidein 300ms ease-out;
   a {
+    transition: 300ms;
     color: black;
     text-decoration: none;
+    &:hover {
+      color: dodgerblue;
+    }
   }
   img {
     --max-size: 2.5rem;
