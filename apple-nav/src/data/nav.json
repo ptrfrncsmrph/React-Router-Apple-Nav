@@ -1,0 +1,54 @@
+{
+  "nav": [
+    {
+      "imgUrl": "https://www.apple.com/ac/globalnav/4/en_US/images/globalnav/apple/image_large.svg",
+      "name": [],
+      "route": ""
+    },
+    {
+      "imgUrl": "https://www.apple.com/ac/globalnav/4/en_US/images/globalnav/links/mac/image_large.svg",
+      "name": ["Mac"],
+      "route": "mac"
+    },
+    {
+      "imgUrl": "https://www.apple.com/ac/globalnav/4/en_US/images/globalnav/links/ipad/image_large.svg",
+      "name": ["iPad"],
+      "route": "ipad"
+    },
+    {
+      "imgUrl": "https://www.apple.com/ac/globalnav/4/en_US/images/globalnav/links/iphone/image_large.svg",
+      "name": ["iPhone"],
+      "route": "iphone"
+    },
+    {
+      "imgUrl": "https://www.apple.com/ac/globalnav/4/en_US/images/globalnav/links/watch/image_large.svg",
+      "name": ["Watch"],
+      "route": "watch"
+    },
+    {
+      "imgUrl": "https://www.apple.com/ac/globalnav/4/en_US/images/globalnav/links/tv/image_large.svg",
+      "name": ["TV"],
+      "route": "tv"
+    },
+    {
+      "imgUrl": "https://www.apple.com/ac/globalnav/4/en_US/images/globalnav/links/music/image_large.svg",
+      "name": ["Music"],
+      "route": "music"
+    },
+    {
+      "imgUrl": "https://www.apple.com/ac/globalnav/4/en_US/images/globalnav/links/support/image_large.svg",
+      "name": ["Support"],
+      "route": "support"
+    },
+    {
+      "imgUrl": "https://www.apple.com/ac/globalnav/4/en_US/images/globalnav/search/image_large.svg",
+      "name": [],
+      "route": "search"
+    },
+    {
+      "imgUrl": "https://www.apple.com/ac/globalnav/4/en_US/images/globalnav/bag/image_large.svg",
+      "name": [],
+      "route": "shop"
+    }
+  ]
+}
